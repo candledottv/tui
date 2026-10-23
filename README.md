@@ -4,8 +4,6 @@ The Candle terminal app, for trading and launching from your terminal. It attach
 Candle core that the [Candle CLI](https://github.com/candledottv/agentic) runs, and it holds no
 keys: signing and approvals stay in the core, which is open source.
 
-> **Coming.** The first release is not out yet. Nothing here installs until it is.
-
 This repository holds the signed binaries, the issue tracker and the documentation. The TUI itself
 is closed source. The trust-critical code (signer, approval cards, classifier, executor, journal and
 the socket server) is the CLI's, and it is public.
