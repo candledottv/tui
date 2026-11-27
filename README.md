@@ -1,8 +1,9 @@
 # Candle TUI
 
 The Candle terminal app, for trading and launching from your terminal. It attaches to the local
-Candle core that the [Candle CLI](https://github.com/candledottv/agentic) runs, and it holds no
-keys: signing and approvals stay in the core, which is open source.
+Candle core that the [Candle CLI](https://github.com/candledottv/cli) runs, and it holds no
+keys: signing and approvals stay in the core, which is open source in
+[candledottv/agentic](https://github.com/candledottv/agentic).
 
 This repository holds the signed binaries, the issue tracker and the documentation. The TUI itself
 is closed source. The trust-critical code (signer, approval cards, classifier, executor, journal and
@@ -15,7 +16,7 @@ Quant answer. It makes no API/model calls or transactions.
 
 ## Install
 
-Needs the Candle CLI first, and macOS 13 or later, or Linux.
+Needs the [Candle CLI](https://github.com/candledottv/cli#install) first, and macOS 13 or later, or Linux.
 The installer requires `curl`, `sha256sum` or `shasum`, and **cosign 2.5.2 or later**
 (`brew install cosign` on macOS; see [cosign releases](https://github.com/sigstore/cosign/releases)
 on Linux). GitHub CLI (`gh`) cannot verify these private-build provenance records.
